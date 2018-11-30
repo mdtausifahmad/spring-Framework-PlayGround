@@ -1,4 +1,4 @@
-######Spring  Framework 
+### Spring  Framework 
 Framework to develop enterprise application
 
 - [x] Spring Core
@@ -6,28 +6,26 @@ Framework to develop enterprise application
 - [ ] Spring AOP
 - [ ] Spring Test
 
-######List of Topics 
+### List of Topics 
 
 1. IoC Container(dependency injection)
 
 Dependency Injection, an aspect of Inversion of Control (IoC), is a general concept stating that you do not create your 
 objects manually but instead describe how they should be created. An IoC container will instantiate required classes if needed.
 
-
-
 To understand dependency injection we have give following answers
-1.what are beans?
+1. what are beans?
 Ans. If we want that spring should take care of our dependency injection of bean then we must specify the java class 
       whose instance we want. we do by annotating them as @component 
       
-2.What are the dependencies of a bean?
+2. What are the dependencies of a bean?
 Ans. We have to specify the dependencies by annotating @Autowire
 
-3.Where to search for beans?   
+3. Where to search for beans?   
 Ans. Spring Boot will automatically search the package and subpackage from root of the application.
 
 
-######When two or more candidate are available for DI. Then in following ways we can resolve.
+###### When two or more candidate are available for DI. Then in following ways we can resolve.
 1. Using @Primary at one of the candidate.
 2. Using Autowiring by name.
 3. Using @Qualifier 
