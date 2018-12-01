@@ -69,9 +69,8 @@ Destroy methods are called in the same order:
 
 ###### Bean Post processor
 
-BeanPostProcessors interface provides methods that you can implement to have your own 
-instantiation logic.Also you can write your own logic after spring IOC finishes instantiating, 
-configuring, and initializing a bean by plugging in one or more BeanPostProcessor implementations.
+`BeanPostProcessor` is a  Factory hook that allows for custom modification of new bean instances, e.g. checking for marker 
+interfaces or wrapping them with proxies.
 
 Difference between `BeanFactoryPostProcessor` and `BeanPostProcessor`
 
