@@ -1,7 +1,7 @@
-package com.learn.springframework.beanfactorypostprocessor;
+package com.learn.springframework.ioc.beanfactorypostprocessor;
 
-import com.learn.springframework.mybeans.Cat;
-import com.learn.springframework.mybeans.Dog;
+import com.learn.springframework.ioc.mybeans.Cat;
+import com.learn.springframework.ioc.mybeans.Dog;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 

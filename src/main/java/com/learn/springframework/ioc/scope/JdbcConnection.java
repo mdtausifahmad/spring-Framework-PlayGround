@@ -1,4 +1,4 @@
-package com.learn.springframework.scope;
+package com.learn.springframework.ioc.scope;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

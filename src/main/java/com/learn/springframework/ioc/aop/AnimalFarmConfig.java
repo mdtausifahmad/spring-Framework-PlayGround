@@ -1,7 +1,7 @@
-package com.learn.springframework.aop;
+package com.learn.springframework.ioc.aop;
 
-import com.learn.springframework.mybeans.Cat;
-import com.learn.springframework.mybeans.Dog;
+import com.learn.springframework.ioc.mybeans.Cat;
+import com.learn.springframework.ioc.mybeans.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

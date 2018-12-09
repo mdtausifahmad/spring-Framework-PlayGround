@@ -1,4 +1,4 @@
-package com.learn.springframework.mybeans;
+package com.learn.springframework.ioc.mybeans;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

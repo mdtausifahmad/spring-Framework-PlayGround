@@ -1,4 +1,4 @@
-package com.learn.springframework.aop;
+package com.learn.springframework.ioc.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.Aspect;
 @Aspect
 public class MethodTimeLoggingAspect {
 
-	@Around("@annotation(com.learn.springframework.mybeans.Timed)")
+	@Around("@annotation(com.learn.springframework.ioc.mybeans.Timed)")
 	public Object time(ProceedingJoinPoint invocation) throws Throwable {
 		long start = System.currentTimeMillis();
 		System.out.println("----------------------------------------");

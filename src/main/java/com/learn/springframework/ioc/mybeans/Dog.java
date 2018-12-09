@@ -1,4 +1,4 @@
-package com.learn.springframework.mybeans;
+package com.learn.springframework.ioc.mybeans;
 
 public class Dog {
     public void bark() {

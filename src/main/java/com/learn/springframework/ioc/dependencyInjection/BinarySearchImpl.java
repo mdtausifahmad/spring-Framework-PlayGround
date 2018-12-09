@@ -1,4 +1,4 @@
-package com.learn.springframework.dependencyInjection;
+package com.learn.springframework.ioc.dependencyInjection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;

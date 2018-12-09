@@ -1,7 +1,7 @@
-package com.learn.springframework.beanpostprocessor;
+package com.learn.springframework.ioc.beanfactorypostprocessor;
 
-import com.learn.springframework.mybeans.Cat;
-import com.learn.springframework.mybeans.Dog;
+import com.learn.springframework.ioc.mybeans.Cat;
+import com.learn.springframework.ioc.mybeans.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,8 +17,11 @@ public class AnimalFarmConfig {
         return new Cat();
     }
 
+    // NB it's STATIC!
     @Bean
-    public MethodTimeLoggingBeanPostProcessor mtPP() {
-        return new MethodTimeLoggingBeanPostProcessor();
+    static public SoxComplianceSuite complianceSuite() throws Throwable {
+        return new SoxComplianceSuite();
     }
+
+
 }

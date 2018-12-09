@@ -1,6 +1,6 @@
-package com.learn.springframework.beanpostprocessor;
+package com.learn.springframework.ioc.beanpostprocessor;
 
-import com.learn.springframework.mybeans.Timed;
+import com.learn.springframework.ioc.mybeans.Timed;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.aop.framework.ProxyFactory;

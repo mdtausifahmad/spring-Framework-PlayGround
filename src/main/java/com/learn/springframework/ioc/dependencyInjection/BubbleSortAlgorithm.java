@@ -1,4 +1,4 @@
-package com.learn.springframework.dependencyInjection;
+package com.learn.springframework.ioc.dependencyInjection;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

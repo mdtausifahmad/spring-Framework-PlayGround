@@ -1,4 +1,4 @@
-package com.learn.springframework.beanfactorypostprocessor;
+package com.learn.springframework.ioc.beanfactorypostprocessor;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
